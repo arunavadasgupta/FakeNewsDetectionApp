@@ -3,12 +3,12 @@ import { TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomePage from './HomePage';
-import URLPage from './URLPage';        // Import for URL classification page
-import ImagePage from './ImagePage';    // Import for Image classification page
+import URLPage from './URLPage';        
+import ImagePage from './ImagePage';   
 import ScanInput from './ScanInput';
-import TextPage from './TextPage';      // Import for Text classification page
-import SettingsPage from './SettingsPage'; // Import for Settings
-import { MaterialIcons } from 'react-native-vector-icons'; // Import icon library
+import TextPage from './TextPage';      
+import SettingsPage from './SettingsPage'; 
+import { MaterialIcons } from 'react-native-vector-icons'; 
 
 
 const Tab = createBottomTabNavigator();
