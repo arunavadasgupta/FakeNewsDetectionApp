@@ -441,14 +441,14 @@ const styles = StyleSheet.create({
         borderColor: 'transparent', 
         backgroundColor: 'rgba(255, 255, 255, 0.5)', 
         borderRadius: 10,
-        padding: 5, // Add padding for a more spacious feel
-        marginTop: 10, // Margin from the label
+        padding: 5, 
+        marginTop: 10, 
     },
     selectorText: {
         fontSize: 18,
-        color: '#333', // Dark color for better visibility
+        color: '#333', 
         fontWeight: 'bold',
-        textAlign: 'center', // Center text for better alignment
+        textAlign: 'center', 
     },
     
 });
