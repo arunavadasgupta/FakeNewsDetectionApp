@@ -83,5 +83,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Feel free to modify any sections to better suit your project’s specifics! Let me know if you need any more help!
 
+## API Keys
+The homePage.js needs NewsAPI and Google API keys to function properly.
+Please update your personal API keys in code before using.
+
 
 
