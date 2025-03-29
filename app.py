@@ -68,7 +68,7 @@ uploaded_files_folder = os.path.join(os.getcwd(), 'uploaded_files')
 os.makedirs(uploaded_files_folder, exist_ok=True)
 
 # Load pre-trained image classification model
-image_model_path = os.path.join(output_folder, 'cifake_image_classifier_model.h5')  # Update this to the actual model path
+image_model_path = os.path.join(output_folder, 'cifake_image_classifier_model.h5')
 image_model = load_model(image_model_path)
 
 # Function to preprocess text and remove stopwords
@@ -97,7 +97,7 @@ def fetch_content(url):
     
 
 
-## Function to classify text using DistilBERT 
+## Function to classify text using DistilBERT (default setting for user app)
 def classify_text(text, model, tokenizer):
     print(model)
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
