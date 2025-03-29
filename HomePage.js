@@ -15,8 +15,8 @@ const HomePage = () => {
     const [videos, setVideos] = useState([]); 
     const [modalVisible, setModalVisible] = useState(false); 
     const [webUrl, setWebUrl] = useState(''); 
-    const API_KEY_NEWS = 'c5b075e35361400380281cbb80cab582'; 
-    const API_KEY_YOUTUBE = 'AIzaSyDE0Hfc2dKPrznc65d8ybtXoEtMIjgSKrs'; 
+    const API_KEY_NEWS = 'API_KY'; //removing API key after getting alert from Github
+    const API_KEY_YOUTUBE = 'API_KEY2'; ////removing API key after getting alert from Github
 
     useEffect(() => {
         const fetchArticles = async () => {
