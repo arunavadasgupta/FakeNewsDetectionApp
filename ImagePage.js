@@ -120,7 +120,7 @@ const ImagePage = () => {
 const styles = StyleSheet.create({
     background: {
         flex: 1,
-        justifyContent: 'center', // Center the content
+        justifyContent: 'center', 
     },
     container: {
         flex: 0,
@@ -174,15 +174,11 @@ const styles = StyleSheet.create({
     },
     classificationText: {
         marginTop: 10,
-        fontSize: 22, // Increase font size
+        fontSize: 22, 
         fontWeight: 'bold',
-        color: '#ffffff', // Light color for better contrast
-        //textShadowColor: '#000000', // Shadow color (black)
-        //textShadowOffset: { width: 1, height: 1 }, // Shadow offset
-        //textShadowRadius: 3, // Blur radius for the shadow
-        // backgroundColor: 'rgba(0, 0, 0, 0.5)', // Optional: Semi-transparent dark background
-        padding: 5, // Padding to add space around the text
-        borderRadius: 8, // Optional: Rounded corners for background
+        color: '#ffffff', 
+        padding: 5, 
+        borderRadius: 8, 
     },
     cameraButton: {
         marginTop: 30,
