@@ -10,6 +10,7 @@ The application utilizes advanced machine learning models, including DistilBERT,
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Evaluation](#Evaluation)
 - [Contributing](#contributing)
 - [License](#license)
 - [API](#APIKeys)
@@ -59,7 +60,10 @@ Trained Models for Image Classification can be found here -
 
 https://drive.google.com/drive/folders/1-r9FPPwiAl3_Amo0vvCslaUTQLb9gcRA?usp=sharing
 
+## Evaluation
 
+1. Evaluation of the base NLP Models can be found in the Confusion Matrix and ROC Curve .png files.
+2. Evaluation of the Image Classifier - Confusion Matric and ROC Curve can be found in image_classifier.ipynb file.
 
 ## Contributing
 
