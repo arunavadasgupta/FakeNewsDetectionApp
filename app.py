@@ -1,4 +1,4 @@
-
+## Backend Application for Fake News Detection App
 
 from flask import Flask, request, jsonify, send_from_directory
 import requests
@@ -180,6 +180,8 @@ def save_evaluation_metrics(y_test, y_pred, X_test_vectorized, model):
 
 ############## Server Routes ####################
 
+# Route for Classification of URL and Text
+
 @app.route('/classify', methods=['POST'])
 def classify():
     model_file = request.files.get('model')
@@ -249,14 +251,14 @@ def classify():
 
 
 
-# route to serve image files
+# Route to serve image files
 
 @app.route('/assets/<filename>')
 def serve_file(filename):
     return send_from_directory(assets_folder, filename)
 
 
-#route to train the model when user presses train
+#Route to Train NLP Model on User Input
 
 @app.route('/train', methods=['POST'])
 def train_model():
