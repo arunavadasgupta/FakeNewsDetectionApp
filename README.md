@@ -33,8 +33,7 @@ The application utilizes advanced machine learning models, including DistilBERT,
 ## Installation
 
 1. Clone the repository:
-
-   git clone https://github.com/yourusername/fake-news-detection.git
+   git clone https://github.com/arunavadasgupta/fake-news-detection.git
    cd fake-news-detection
 2. Install the backend requirements: bash
     pip install -r requirements.txt
@@ -60,8 +59,9 @@ Upload images directly for classification.
 Text Classification :
 Customize the application by accessing Text Classification and Select various transformer models or train your own NLP Model.
 
-Trained Models for Image Classification can be found -  https://drive.google.com/drive/folders/1-r9FPPwiAl3_Amo0vvCslaUTQLb9gcRA?usp=sharing
+Trained Models for Image Classification can be found here - 
 
+https://drive.google.com/drive/folders/1-r9FPPwiAl3_Amo0vvCslaUTQLb9gcRA?usp=sharing
 
 Contributing
 Contributions are welcome! If you would like to contribute to this project:
@@ -75,13 +75,9 @@ Contributions are welcome! If you would like to contribute to this project:
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+Demo Video: 
+https://vimeo.com/1070678990?share=copy
 
-### Tips for Personalization:
-- Replace "yourusername" in the clone command with your actual GitHub username.
-- You may want to elaborate on specific functionalities or provide additional instructions based on your project’s workflow.
-- Include screenshots or GIFs in the `README.md` to visually demonstrate the application if applicable.
-
-Feel free to modify any sections to better suit your project’s specifics! Let me know if you need any more help!
 
 ## API Keys
 The homePage.js needs NewsAPI and Google API keys to function properly.
