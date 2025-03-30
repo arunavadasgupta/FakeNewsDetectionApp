@@ -44,21 +44,27 @@ The application utilizes advanced machine learning models, including DistilBERT,
 
 ## Usage
 
-Text Classification:
+1. Text Classification:
 
 Input text or a URL into the appropriate field and click "Classify" to receive results on whether the content is real or fake.
 
-Image Classification:
+2. Image Classification:
 
 Upload images directly for classification.
 
-Text Classification :
+3. Select Classification Mode for Text Classification
 
 Customize the application by accessing Text Classification and Select various transformer models or train your own NLP Model.
 
-Trained Models for Image Classification can be found here - 
+4. Trained Models for Image Classification can be found here - 
 
 https://drive.google.com/drive/folders/1-r9FPPwiAl3_Amo0vvCslaUTQLb9gcRA?usp=sharing
+
+5. Training NLP Models Using Mobile APP :
+
+Use own data or default training data, choose between 3 different NLP models and train.
+Get  details of training results, accuracy, precision, Confusion Matrix, ROC Curve.
+
 
 ## Evaluation
 
