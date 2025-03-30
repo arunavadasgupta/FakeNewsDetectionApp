@@ -1,4 +1,4 @@
-
+//Image Classification Page
 
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image, ActivityIndicator, Alert, ImageBackground } from 'react-native';
