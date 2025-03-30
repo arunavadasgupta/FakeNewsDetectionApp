@@ -265,7 +265,7 @@ def train_model():
     # Check if a file was uploaded
     if 'file' not in request.files:
         # If no file, download the dataset
-        path = kagglehub.dataset_download("rajatkumar30/fake-news")
+        path = kagglehub.dataset_download("rajatkumar30/fake-news") # Note : This is a small dataset that's given by default. Before running code, you may want to update path for any other dataset.
         print("Path to dataset files:", path)
         
         # Load the dataset
