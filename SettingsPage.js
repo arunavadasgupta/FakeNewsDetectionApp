@@ -1,3 +1,6 @@
+//Setting Page
+//Note : This is a placeholder page for later development and not implemented to work with the other pages yet.
+
 import React, { useState } from 'react';
 import { View, Text, SafeAreaView, Switch, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import ModalSelector from 'react-native-modal-selector';
